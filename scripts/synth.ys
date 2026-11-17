@@ -1,0 +1,11 @@
+# Yosys synthesis script; execute from repository root.
+read_verilog -sv rtl/alu8.v
+hierarchy -check -top alu8
+proc
+opt
+check
+synth -top alu8
+check
+stat
+write_verilog -noattr build/alu8_netlist.v
+write_json build/alu8_netlist.json

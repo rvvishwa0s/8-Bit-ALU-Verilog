@@ -1,0 +1,8 @@
+build/
+*.vcd
+*.log
+*.tmp
+*.swp
+.DS_Store
+.vscode/
+.idea/
