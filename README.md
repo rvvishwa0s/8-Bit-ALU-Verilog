@@ -49,7 +49,7 @@ sudo apt install -y git make iverilog gtkwave yosys
 Clone the repository, then run:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/alu8-asic-github.git
+git clone https://github.com/rvvishwa0s/alu8-asic-github.git
 cd alu8-asic-github
 make sim
 ```
